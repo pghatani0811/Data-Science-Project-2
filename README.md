@@ -213,6 +213,11 @@ The final recommendation is to use the tuned Gradient Boosting model as a decisi
 
 Final Recommendation: Insurance executives should test the Gradient Boosting model and send the top 5% of scored claims to experienced adjusters for early review before setting reserves. The 5% is a starting point and should be validated before full use
 
+# Method VI: Visualization Dashboard
+The dashboard shows that most claims are low-cost, but a small number are very expensive. The tuned Gradient Boosting model performed best overall and can be used to rank potentially high-cost claims for early review.
+
+Business Value: The dashboard helps insurance managers quickly understand claim patterns, compare model performance, and support claim prioritization and reserve planning.
+<img width="1350" height="978" alt="image" src="https://github.com/user-attachments/assets/65ea07d7-eb94-4d7f-abef-f740f6ce648a" />
 
 ## How to Run
 1. Download or clone the project repository.
