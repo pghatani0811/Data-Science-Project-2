@@ -228,3 +228,16 @@ jupyter notebook notebooks/Allstate_Claims_Complete_Project.ipynb
 4. Run all notebook cells in order.
 
 The notebook performs data cleaning, EDA, preprocessing, model development, model tuning, evaluation, and visualization. This project uses Python libraries including pandas, NumPy, Matplotlib, and scikit-learn.
+
+
+## Tools Used
+| Tool / Technology    | Purpose                                   |
+| -------------------- | ----------------------------------------- |
+| **Python**           | Data analysis and machine learning        |
+| **Pandas**           | Data loading, cleaning, and preparation   |
+| **NumPy**            | Numerical calculations                    |
+| **Matplotlib**       | Charts and visualizations                 |
+| **Scikit-learn**     | Regression models, tuning, and evaluation |
+| **Jupyter Notebook** | Develop and run the analysis              |
+| **Kaggle**           | Allstate Claims Severity dataset          |
+
