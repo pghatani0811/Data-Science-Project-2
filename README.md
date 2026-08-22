@@ -241,3 +241,9 @@ The notebook performs data cleaning, EDA, preprocessing, model development, mode
 | **Jupyter Notebook** | Develop and run the analysis              |
 | **Kaggle**           | Allstate Claims Severity dataset          |
 
+
+
+## Author
+
+Prakash Ghatani Master in Data Science, Regis University pghatani@regis.edu
+
