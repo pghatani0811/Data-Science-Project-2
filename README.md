@@ -227,4 +227,4 @@ jupyter notebook notebooks/Allstate_Claims_Complete_Project.ipynb
 ```
 4. Run all notebook cells in order.
 
-The notebook performs data cleaning, EDA, preprocessing, model development, model tuning, evaluation, and visualization. Your project uses Python libraries including pandas, NumPy, Matplotlib, and scikit-learn.
+The notebook performs data cleaning, EDA, preprocessing, model development, model tuning, evaluation, and visualization. This project uses Python libraries including pandas, NumPy, Matplotlib, and scikit-learn.
