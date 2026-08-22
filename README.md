@@ -144,7 +144,7 @@ The data was prepared for machine learning by separating the target variable (lo
 - Split the Dataset	Training and testing data
 - Prepare Modeling Data	Final dataset ready for regression models
 
-  # Models Evaluated:
+# Models Evaluated:
 
 Three regression models were evaluated to predict insurance claim costs.
 
@@ -158,7 +158,7 @@ Three regression models were evaluated to predict insurance claim costs.
 
 Final Model: After tuning, Gradient Boosting performed best, with an RMSE of $1,884.82, MAE of $1,218.61, and R² of 0.5646.
 
-  # Method IV: Model Evaluation and Visualization
+# Method IV: Model Evaluation and Visualization
 
 Three regression models were tested to determine which model could best predict insurance claim costs: Linear Regression, Random Forest, and Gradient Boosting.
 
