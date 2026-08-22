@@ -23,7 +23,7 @@ The project follows a simple data science process:
 - Visualization and dashboard 
 - Final report and presentation
 
-  ## Business Problem
+## Business Problem
 
 Insurance companies need to estimate claim costs accurately to set proper reserves and manage their money. However, claim costs can vary greatly, and a small number of claims can become very expensive.
 
