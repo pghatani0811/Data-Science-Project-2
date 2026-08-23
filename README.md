@@ -185,24 +185,15 @@ very expensive claims are rare.
                                │
                                ▼
                   Final Gradient Boosting Model
-# Models Evaluated:
+## Models Evaluated:
 
-Three regression models were evaluated to predict insurance claim costs.
+Three regression models were tested to predict insurance claim costs:
 
-  ------------------------------------------------------------------------------
-  Model                                   RMSE           R² Result
-  --------------------------- ---------------- ------------ --------------------
-  **Linear Regression**             \$2,016.61       0.5016 Baseline Model
+- Linear Regression — Used as the baseline model.
+- Random Forest — Performed best in the initial comparison with an RMSE of $1,903.31.
+- Gradient Boosting — After tuning, it became the best final model with an RMSE of $1,884.82, MAE of $1,218.61, and R² of 0.5646.
 
-  **Random Forest**                 \$1,903.31       0.5560 Best Before Tuning
-
-  **Gradient Boosting**             \$1,945.67       0.5361 Selected for Tuning
-
-  **Tuned Gradient Boosting**   **\$1,884.82**   **0.5646** **Best Final Model**
-  ------------------------------------------------------------------------------
-
-Final Model: After tuning, Gradient Boosting performed best, with an
-RMSE of \$1,884.82, MAE of \$1,218.61, and R² of 0.5646.
+# Final Model: Tuned Gradient Boosting
 
 # Method IV: Model Evaluation and Visualization
 
