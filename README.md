@@ -2,23 +2,25 @@
 
 ## Project Overview
 
-This project uses machine learning to predict insurance claim costs
-using the Allstate Claims Severity dataset from Kaggle. The dataset
-contains 188,318 claims.
+This project uses machine learning to predict how much insurance claims may cost using the Kaggle Allstate Claims Severity dataset. The goal is to help claims managers find expensive claims early, review important claims first, and make better decisions about reserves.
 
-The goal is to help insurance managers identify high-cost claims early
-and improve reserve planning.
+The dataset has 188,318 insurance claims, with 116 categorical features and 14 numerical features. The target, called loss, is the dollar cost of each claim. Because the project predicts a dollar amount, I used regression models.
 
-To predict claim costs, I tested three models: Linear Regression, Random
-Forest, and Gradient Boosting. After tuning, Gradient Boosting performed
-the best, with an RMSE of \$1,884.82.
+The data showed that most claims are low-cost. About 83.59% of claims are below $5,000, and only 23 claims are above $40,000. This means very expensive claims are rare, but they can create higher financial risk.
 
-The final recommendation is to use the tuned Gradient Boosting model to
-rank claims by predicted cost and send the top 5% to experienced
-adjusters for early review. In the held-out test set, the top 5%
-captured all 6 claims above \$40,000. Because only 6 such claims were
-present, this result should be validated on additional data before full
-deployment.
+I tested three models:
+
+Linear Regression: RMSE = $2,016.61
+Random Forest: RMSE = $1,903.31
+Gradient Boosting: RMSE = $1,945.67
+
+At first, Random Forest performed best. After tuning, Gradient Boosting became the best final model, with an RMSE of $1,884.82, MAE of $1,218.61, and R² of 0.5646.
+
+My recommendation is to use the tuned Gradient Boosting model to rank claims by predicted cost. As a starting point, the top 5% of claims can be sent to experienced adjusters for early review.
+
+In the test data, the top 5% captured all 6 claims above $40,000. However, there were only six very expensive claims, so this result needs to be tested with more data before full use.
+
+The model should help claims managers make decisions, not replace them or automatically set claim reserves.
 
 The project follows a simple data science process:
 
