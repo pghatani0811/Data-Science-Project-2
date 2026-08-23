@@ -6,8 +6,7 @@ The goal is to help insurance managers identify high-cost claims early and impro
 
 To predict claim costs, I tested three models: Linear Regression, Random Forest, and Gradient Boosting. After tuning, Gradient Boosting performed the best, with an RMSE of $1,884.82.
 
-The final recommendation is to use the model to rank claims by predicted cost and send the top 5% to experienced adjusters for early review. 
-In the held-out test set, the top 5% captured all 6 claims above $40,000. Because there were only 6 such claims, further validation on additional data is needed before full deployment.
+The final recommendation is to use the tuned Gradient Boosting model to rank claims by predicted cost and send the top 5% to experienced adjusters for early review. In the held-out test set, the top 5% captured all 6 claims above $40,000. Because only 6 such claims were present, this result should be validated on additional data before full deployment.
 
 
 The project follows a simple data science process:
