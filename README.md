@@ -223,7 +223,7 @@ Lower RMSE indicates better prediction performance.
 
 # Method V: Business Recommendations
 
-Method V: Business Recommendations
+
 - Use the tuned Gradient Boosting model to rank claims by predicted cost.
 - Send the top 5% of ranked claims to experienced adjusters for early review.
 - Use the model before reserves are finalized to help prioritize potentially expensive claims.
