@@ -198,7 +198,7 @@ Three regression models were tested to predict insurance claim costs:
 
 
 
-# Final Model: Tuned Gradient Boosting
+
 
 # Method IV: Model Evaluation and Visualization
 
