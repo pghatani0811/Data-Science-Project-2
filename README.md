@@ -48,18 +48,19 @@ The model is designed to support claims managers, not replace their professional
 
 The project uses the Allstate Claims Severity dataset from Kaggle.
 
-  Metric                                           Value
-  --------------------------- --------------------------
-  **Dataset**                   Allstate Claims Severity
-  **Total Claims**                               188,318
-  **Total Columns**                                  132
-  **Categorical Features**                           116
-  **Numerical Features**                              14
-  **Target Variable**                `loss` (claim cost)
-  **Duplicate Rows**                                   0
-  **Missing Values**                                   0
-  **Claims Below \$5,000**                        83.59%
-  **Claims Above \$40,000**                           23
+ | **Metric**               |                **Value** |
+| ------------------------ | -----------------------: |
+| **Dataset**              | Allstate Claims Severity |
+| **Total Claims**         |                  188,318 |
+| **Total Columns**        |                      132 |
+| **Categorical Features** |                      116 |
+| **Numerical Features**   |                       14 |
+| **Target Variable**      |      `loss` (Claim Cost) |
+| **Duplicate Rows**       |                        0 |
+| **Missing Values**       |                        0 |
+| **Claims Below $5,000**  |         157,412 (83.59%) |
+| **Claims Above $40,000** |               23 (0.01%) |
+
 
 ## Research Questions
 
