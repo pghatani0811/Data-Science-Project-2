@@ -217,29 +217,9 @@ Lower RMSE indicates better prediction performance.
 <img width="874" height="230" alt="image" src="https://github.com/user-attachments/assets/c2af018a-fcfd-4f9a-9fc0-89347629ea2d" />
 
 
-  Model                               RMSE           R²
-  ----------------------- ---------------- ------------
-  **Linear Regression**         \$2,016.61       0.5016
-  **Random Forest**         **\$1,903.31**   **0.5560**
-  **Gradient Boosting**         \$1,945.67       0.5361
+  
 
-Key Finding: Random Forest performed best initially with the lowest RMSE
-of \$1,903.31. Gradient Boosting was then tuned to improve its
-performance.
 
-After Tuning the Gradient Boosting Model
-
-After hyperparameter tuning, Gradient Boosting became the
-best-performing model.
-
-  Metric         Final Result
-  ---------- ----------------
-  **RMSE**     **\$1,884.82**
-  **MAE**      **\$1,218.61**
-  **R²**           **0.5646**
-
-Key Finding: The tuned Gradient Boosting model achieved the lowest RMSE
-(\$1,884.82) among the models tested, making it the final selected model
 
 # Method V: Business Recommendations
 
