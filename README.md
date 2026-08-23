@@ -131,7 +131,8 @@ very expensive claims are rare.
 -   EDA Chart: Claims by Cost Range
 -   Claims by cost range
 
-`<img width="1980" height="978" alt="image" src="https://github.com/user-attachments/assets/83d11b73-dfca-4c02-b291-fa673bc329b8" />`{=html}
+<img width="1982" height="978" alt="image" src="https://github.com/user-attachments/assets/8575f30c-9bda-44c9-9209-738ce5b4b4b0" />
+
 
 # Method III: Prepare Data
 
