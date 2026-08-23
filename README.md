@@ -220,7 +220,6 @@ Lower RMSE indicates better prediction performance.
   
 
 
-
 # Method V: Business Recommendations
 
 
