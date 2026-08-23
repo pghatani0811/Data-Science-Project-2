@@ -239,15 +239,15 @@ The top 5% should be used as a starting point for testing and validated with mor
 
 # Method VI: Visualization Dashboard
 
-The dashboard shows that most claims are low-cost, but a small number
-are very expensive. The tuned Gradient Boosting model performed best
-overall and can be used to rank potentially high-cost claims for early
-review.
 
-Business Value: The dashboard helps insurance managers quickly
-understand claim patterns, compare model performance, and support claim
-prioritization and reserve planning.
-`<img width="1350" height="978" alt="image" src="https://github.com/user-attachments/assets/65ea07d7-eb94-4d7f-abef-f740f6ce648a" />`{=html}
+- Created a visualization dashboard to summarize the main project results.
+- Included the claim-cost distribution to show that most claims are low-cost.
+- Included claims by cost range to highlight rare high-cost claims.
+- Compared the RMSE of the regression models to show model performance.
+- Used an Actual vs. Predicted chart to evaluate the final tuned Gradient Boosting model.
+- The dashboard connects the technical model results with the business recommendation for early claim review.
+  <img width="1630" height="1150" alt="image" src="https://github.com/user-attachments/assets/4b3cd941-9881-4d84-abdb-700ca8da4884" />
+
 
 ## How to Run
 
