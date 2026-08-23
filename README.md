@@ -233,12 +233,9 @@ Lower RMSE indicates better prediction performance.
 
 # Final Recommendation:
 
-Insurance executives should test the tuned Gradient Boosting model and
-send the top 5% of scored claims to experienced adjusters for early
-review before setting reserves. In the held-out test set, the top 5%
-captured all 6 claims above \$40,000. Because only 6 such claims were
-present, the threshold should be validated on additional data before
-full deployment.
+Use the tuned Gradient Boosting model to rank insurance claims by predicted cost. Send the top 5% of claims to experienced adjusters for early review before reserves are finalized.
+
+The top 5% should be used as a starting point for testing and validated with more data before full deployment. The model should support claims managers, not replace their professional judgment.
 
 # Method VI: Visualization Dashboard
 
