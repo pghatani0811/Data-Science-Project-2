@@ -145,36 +145,46 @@ very expensive claims are rare.
 - Prepared the data for Linear Regression, Random Forest, and Gradient Boosting.
   Data Preparation Chart
 
-Allstate Dataset
-188,318 Claims
-      │
-      ▼
-Basic Data Cleaning
-Remove duplicates / ID
-      │
-      ▼
-Separate Features (X)
-and Target (loss)
-      │
-      ▼
-Train / Test Split
-   80% / 20%
-      │
-      ├───────────────┐
-      ▼               ▼
-Numerical          Categorical
-Features           Features
-      │               │
-      ▼               ▼
-Median             Most-Frequent
-Imputation         Imputation
-      │               │
-      └───────┬───────┘
-              ▼
-      Feature Encoding
-              │
-              ▼
-      Regression Models
+## 🔄 Machine Learning Workflow
+
+                    Allstate Claims Severity Dataset
+                         188,318 Claims
+                               │
+                               ▼
+                       Basic Data Cleaning
+                   Remove Duplicates and ID
+                               │
+                               ▼
+                     Separate Features (X)
+                      and Target (`loss`)
+                               │
+                               ▼
+                       Train / Test Split
+                           80% / 20%
+                               │
+                  ┌────────────┴────────────┐
+                  ▼                         ▼
+          Numerical Features       Categorical Features
+                  │                         │
+                  ▼                         ▼
+          Median Imputation       Most-Frequent Imputation
+                  │                         │
+                  └────────────┬────────────┘
+                               ▼
+                       Feature Encoding
+                               │
+                               ▼
+                      Regression Models
+                               │
+              ┌────────────────┼────────────────┐
+              ▼                ▼                ▼
+       Linear Regression   Random Forest   Gradient Boosting
+                               │
+                               ▼
+                    Model Evaluation & Tuning
+                               │
+                               ▼
+                  Final Gradient Boosting Model
 # Models Evaluated:
 
 Three regression models were evaluated to predict insurance claim costs.
