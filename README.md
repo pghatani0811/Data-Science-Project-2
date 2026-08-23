@@ -75,14 +75,12 @@ Supporting Questions:
 
 ## The Primary Objectives of This Project Are:
 
--   Predict insurance claim costs using machine learning.
--   Compare Linear Regression, Random Forest, and Gradient Boosting to
-    find the best model for this project.
--   Identify and rank potentially high-cost claims for early review.
--   Enable claims managers to handle claims and distribute resources in
-    the best possible way.
--   Support better reserve planning using predicted claim costs.
--   This project aims to develop a decision-support tool.
+- Predict insurance claim costs using machine learning.
+- Compare regression models to find the best-performing model.
+- Identify potentially high-cost claims early.
+- Rank claims by predicted cost for early review.
+- Help claims managers prioritize resources and support better reserve planning.
+- Use the model as a decision-support tool, not to replace claims professionals or automatically set reserves.
 
 ## Repository Structure
 
