@@ -272,15 +272,19 @@ scikit-learn.
 
 ## Tools Used
 
-  Tool / Technology      Purpose
-  ---------------------- -------------------------------------------
-  **Python**             Data analysis and machine learning
-  **Pandas**             Data loading, cleaning, and preparation
-  **NumPy**              Numerical calculations
-  **Matplotlib**         Charts and visualizations
-  **Scikit-learn**       Regression models, tuning, and evaluation
-  **Jupyter Notebook**   Develop and run the analysis
-  **Kaggle**             Allstate Claims Severity dataset
+
+
+The following tools and technologies were used to complete the data analysis, visualization, and machine learning process.
+
+| Tool / Technology | Purpose |
+|---|---|
+| **Python** | Data analysis and machine learning |
+| **Pandas** | Data loading, cleaning, and preparation |
+| **NumPy** | Numerical calculations |
+| **Matplotlib** | Charts and data visualizations |
+| **Scikit-learn** | Regression modeling, model tuning, and evaluation |
+| **Jupyter Notebook** | Developing, running, and documenting the analysis |
+| **Kaggle** | Source of the Allstate Claims Severity dataset |
 
 ## Author
 
