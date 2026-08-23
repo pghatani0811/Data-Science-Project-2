@@ -38,18 +38,11 @@ The project follows a simple data science process:
 
 ## Business Problem
 
-Insurance companies need to estimate claim costs accurately to set
-proper reserves and manage their money. However, claim costs can vary
-greatly, and a small number of claims can become very expensive.
+Insurance companies handle many claims, and some claims can become very expensive. It can be difficult to know early which claims will have high costs.
 
-In this dataset, 83.59% of claims are below \$5,000, while only 23 out
-of 188,318 claims are above \$40,000. These rare high-cost claims can
-create greater financial risk.
+The goal of this project is to use machine learning to predict claim costs so claims managers can identify potentially expensive claims early, review them sooner, and make better decisions about reserve planning.
 
-The main business problem is to identify high-cost claims as early as
-possible. Machine learning can help predict and rank claim costs so
-claims managers can review expensive claims earlier, prioritize their
-work, and improve reserve planning.
+The model is designed to support claims managers, not replace their professional judgment.
 
 ## Dataset Summary
 
