@@ -136,19 +136,45 @@ very expensive claims are rare.
 
 # Method III: Prepare Data
 
-The data was prepared for machine learning by separating the target
-variable (loss) from the input features and preparing the categorical
-and numerical variables for modeling. The project contains 116
-categorical and 14 numerical features.
 
--   Activities Deliverables
--   Select Target Variable loss --- claim cost
--   Separate Input Features Predictor variables prepared
--   Prepare Categorical Features Categorical data prepared for modeling
--   Prepare Numerical Features Numerical data prepared for modeling
--   Split the Dataset Training and testing data
--   Prepare Modeling Data Final dataset ready for regression models
+- Removed duplicate rows and separated the target variable loss from the input features.
+- Removed the id column from the prediction features.
+- Split the data into 80% training and 20% testing sets.
+- Prepared numerical and categorical features separately.
+- Used One-Hot Encoding for Linear Regression and Ordinal Encoding for the tree-based models.
+- Prepared the data for Linear Regression, Random Forest, and Gradient Boosting.
+  Data Preparation Chart
 
+Allstate Dataset
+188,318 Claims
+      │
+      ▼
+Basic Data Cleaning
+Remove duplicates / ID
+      │
+      ▼
+Separate Features (X)
+and Target (loss)
+      │
+      ▼
+Train / Test Split
+   80% / 20%
+      │
+      ├───────────────┐
+      ▼               ▼
+Numerical          Categorical
+Features           Features
+      │               │
+      ▼               ▼
+Median             Most-Frequent
+Imputation         Imputation
+      │               │
+      └───────┬───────┘
+              ▼
+      Feature Encoding
+              │
+              ▼
+      Regression Models
 # Models Evaluated:
 
 Three regression models were evaluated to predict insurance claim costs.
