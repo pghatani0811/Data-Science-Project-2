@@ -201,17 +201,20 @@ Key Finding: The tuned Gradient Boosting model achieved the lowest RMSE ($1,884.
 # Method V: Business Recommendations
 
 The final recommendation is to use the tuned Gradient Boosting model as a decision-support tool to identify and prioritize potentially high-cost claims.
+
+
 | Activity | Deliverable / Business Value |
 |---|---|
 | **Rank Claims by Predicted Cost** | Identify and prioritize potentially high-cost claims |
 | **Select Top 5% of Claims** | Create an initial pilot group for early review |
 | **Early Claim Review** | Route the top 5% of model-ranked claims to experienced adjusters |
 | **Support Reserve Planning** | Help claims managers make more informed reserve-planning decisions |
-| **Validate Top 5% Threshold** | In the held-out test set, the top 5% captured all 6 of 6 claims above $40,000; additional validation is needed before full deployment |
+| **Validate Top 5% Threshold** | Captured all 6 of 6 claims above $40,000 in the held-out test set; further validation is needed before full deployment |
 | **Support Professional Judgment** | Use the model for claim prioritization and decision support, not automatic reserve setting |
 
 
-Final Recommendation: Insurance executives should test the tuned Gradient Boosting model and send the top 5% of scored claims to experienced adjusters for early review before setting reserves. In the held-out test set, the top 5% captured all 6 claims above $40,000. Because only 6 such claims were present, the threshold should be validated on additional data before full deployment.
+# Final Recommendation: 
+Insurance executives should test the tuned Gradient Boosting model and send the top 5% of scored claims to experienced adjusters for early review before setting reserves. In the held-out test set, the top 5% captured all 6 claims above $40,000. Because only 6 such claims were present, the threshold should be validated on additional data before full deployment
 
 # Method VI: Visualization Dashboard
 The dashboard shows that most claims are low-cost, but a small number are very expensive. The tuned Gradient Boosting model performed best overall and can be used to rank potentially high-cost claims for early review.
