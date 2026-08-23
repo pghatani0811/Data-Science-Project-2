@@ -86,12 +86,21 @@ Supporting Questions:
 
 ``` text
 Data-Science-Project-2/
-├── Allstate_Claims_Complete_Project_TOP5_READY.ipynb
-├── Data_Science_Practicum_Proposal_LaTeX_Template .pdf
-├── WEEK7_Powerpoint_Slide_PGHATANI(FINAL).pptx
-├── train.csv
+├── data/
+│   └── train.csv
+├── notebooks/
+│   └── Allstate_Claims_Complete_Project.ipynb
+├── outputs/
+│   └── generated charts and model results
+├── reports/
+│   ├── Project_Proposal.pdf
+│   ├── Defensible_Analysis.docx
+│   └── LLM_Log_Final_Reflection.docx
+├── presentation/
+│   └── Final_Presentation.pptx
+├── README.md
 ├── requirements.txt
-└── README.md
+└── .gitignore
 ```
 
 ## Methodology
