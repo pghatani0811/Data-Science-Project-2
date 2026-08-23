@@ -64,18 +64,14 @@ The project uses the Allstate Claims Severity dataset from Kaggle.
 
 ## Research Questions
 
--   How can machine learning predict and identify high-cost insurance
-    claims early to support better claim review and reserve planning?
--   Which model---Linear Regression, Random Forest, or Gradient
-    Boosting---best predicts insurance claim costs?
--   Can the model effectively rank potentially high-cost claims for
-    early review?
--   How can claim-cost predictions help insurance managers prioritize
-    claims and improve reserve planning?
+Main Research Question:
+How can machine learning be used to predict insurance claim costs using historical insurance claim data?
 
-These questions align well with your project's goal of predicting claim
-costs, comparing regression models, and using the results as a
-decision-support tool.
+Supporting Questions:
+
+- Which regression model gives the best prediction results?
+- Can the model help identify potentially high-cost claims early?
+- Can the model help claims managers prioritize claims for review and support reserve planning?
 
 ## The Primary Objectives of This Project Are:
 
