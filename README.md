@@ -223,35 +223,13 @@ Lower RMSE indicates better prediction performance.
 
 # Method V: Business Recommendations
 
-The final recommendation is to use the tuned Gradient Boosting model as
-a decision-support tool to identify and prioritize potentially high-cost
-claims.
-
-  -----------------------------------------------------------------------
-  Activity                            Deliverable / Business Value
-  ----------------------------------- -----------------------------------
-  **Rank Claims by Predicted Cost**   Identify and prioritize potentially
-                                      high-cost claims
-
-  **Select Top 5% of Claims**         Create an initial pilot group for
-                                      early review
-
-  **Early Claim Review**              Route the top 5% of model-ranked
-                                      claims to experienced adjusters
-
-  **Support Reserve Planning**        Help claims managers make more
-                                      informed reserve-planning decisions
-
-  **Validate Top 5% Threshold**       Captured all 6 of 6 claims above
-                                      \$40,000 in the held-out test set;
-                                      further validation is needed before
-                                      full deployment
-
-  **Support Professional Judgment**   Use the model for claim
-                                      prioritization and decision
-                                      support, not automatic reserve
-                                      setting
-  -----------------------------------------------------------------------
+Method V: Business Recommendations
+- Use the tuned Gradient Boosting model to rank claims by predicted cost.
+- Send the top 5% of ranked claims to experienced adjusters for early review.
+- Use the model before reserves are finalized to help prioritize potentially expensive claims.
+- Treat the top 5% as a starting point for testing, not a final proven threshold.
+- Continue testing the model with additional or future data.
+- Use the model to support claims managers, not replace their professional judgment or automatically set reserves
 
 # Final Recommendation:
 
