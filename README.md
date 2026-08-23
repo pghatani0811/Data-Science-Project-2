@@ -207,7 +207,7 @@ The final recommendation is to use the tuned Gradient Boosting model as a decisi
 | **Select Top 5% of Claims**       | Initial pilot group for review                                  |
 | **Early Claim Review**            | Send top 5% to experienced adjusters                            |
 | **Support Reserve Planning**      | Help managers make better reserve decisions                     |
-| **Validate the 5% Threshold**     | Test how many $40,000+ claims are captured                      |
+| **Top 5% Validation**             | Test how many $40,000+ claims are captured                      |
 | **Support Professional Judgment** | Use the model for prioritization, not automatic reserve setting |
 
 
