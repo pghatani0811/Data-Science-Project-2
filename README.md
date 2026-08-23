@@ -104,36 +104,14 @@ Data-Science-Project-2/
 ```
 
 ## Methodology
-
 # Method I: Data Access and Understanding
-
-The project follows a machine learning regression approach to predict
-insurance claim costs.
-
-  -----------------------------------------------------------------------
-  Activities                       Deliverables
-  -------------------------------- --------------------------------------
-  **Access Allstate Claims         Kaggle training dataset
-  Severity Dataset**               
-
-  **Load Data into Python**        Dataset successfully loaded
-
-  **Understand Dataset Structure** 188,318 claims and 132 columns
-
-  **Identify Features**            116 categorical and 14 numerical
-                                   features
-
-  **Identify Target Variable**     `loss` --- insurance claim cost
-
-  **Check Data Quality**           No missing values or duplicate rows
-                                   found
-
-  **Assess Data Suitability**      Dataset confirmed suitable for
-                                   regression analysis
-  -----------------------------------------------------------------------
-
-These items match the dataset-access and initial-inspection steps
-documented in your project.
+- Used the Kaggle Allstate Claims Severity dataset.
+- The dataset contains 188,318 insurance claims and 132 columns.
+- It includes 116 categorical features and 14 numerical features.
+- The target variable is loss, which represents the dollar cost of each insurance claim.
+- The data was loaded and analyzed in Python using tools such as pandas and scikit-learn.
+- Initial inspection found no duplicate rows and no missing values.
+- Since loss is a continuous dollar amount, regression models were selected for prediction.
 
 ## Method II: Exploratory Data Analysis (EDA)
 
