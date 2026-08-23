@@ -192,6 +192,11 @@ Three regression models were tested to predict insurance claim costs:
 - Linear Regression — Used as the baseline model.
 - Random Forest — Performed best in the initial comparison with an RMSE of $1,903.31.
 - Gradient Boosting — After tuning, it became the best final model with an RMSE of $1,884.82, MAE of $1,218.61, and R² of 0.5646.
+  <img width="1792" height="966" alt="image" src="https://github.com/user-attachments/assets/b4fab611-5179-4b71-bd00-76055a8114a7" />
+
+  <img width="364" height="178" alt="image" src="https://github.com/user-attachments/assets/6109e4ef-1e4d-44e9-8466-639b93de023b" />
+
+
 
 # Final Model: Tuned Gradient Boosting
 
