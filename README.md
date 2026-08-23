@@ -202,20 +202,20 @@ Three regression models were tested to predict insurance claim costs:
 
 # Method IV: Model Evaluation and Visualization
 # Evaluated the models using RMSE, MAE, and R².
-Compared Linear Regression, Random Forest, and Gradient Boosting.
-Random Forest performed best before tuning with an RMSE of $1,903.31.
-After tuning, Gradient Boosting performed best overall with:
-RMSE: $1,884.82
-MAE: $1,218.61
-R²: 0.5646
+- Compared Linear Regression, Random Forest, and Gradient Boosting.
+- Random Forest performed best before tuning with an RMSE of $1,903.31.
+- After tuning, Gradient Boosting performed best overall with:
+- RMSE: $1,884.82
+- MAE: $1,218.61
+- R²: 0.5646
 Used Actual vs. Predicted and model comparison charts to understand model performance.
 The final model is used to rank potentially high-cost claims for early review, not to automatically set reserves.
 
 Model RMSE comparison
 
 Lower RMSE indicates better prediction performance.
+<img width="874" height="230" alt="image" src="https://github.com/user-attachments/assets/c2af018a-fcfd-4f9a-9fc0-89347629ea2d" />
 
-`<img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/a9b191ea-a594-4fa7-a268-8fd0a00a99f2" />`{=html}
 
   Model                               RMSE           R²
   ----------------------- ---------------- ------------
